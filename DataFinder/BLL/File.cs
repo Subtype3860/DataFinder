@@ -3,7 +3,7 @@ using DataFinder.DAL;
 
 namespace DataFinder.BLL
 {
-    internal class File
+    public class File
     {
         public Guid Id { get; set; }
         public string? Name { get; set; }

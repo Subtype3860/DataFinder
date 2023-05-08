@@ -2,7 +2,7 @@
 
 namespace DataFinder.DAL
 {
-    internal class FileRepository
+    public class FileRepository
     {
         private IEnumerable<FileEntity> files { get; }
         public FileRepository()

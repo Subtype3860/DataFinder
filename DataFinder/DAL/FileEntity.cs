@@ -2,7 +2,7 @@
 
 namespace DataFinder.DAL
 {
-    internal class FileEntity
+    public class FileEntity
     {
         public Guid Id { get; set; }
         public string? Name { get; set; }
